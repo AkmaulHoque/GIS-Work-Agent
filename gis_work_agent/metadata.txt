@@ -1,0 +1,19 @@
+[general]
+name=GIS Work Agent
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Prompt-driven GIS work assistant for QGIS that turns simple everyday text into vector, raster, table and multi-step Processing workflows.
+about=GIS Work Agent lets users describe GIS tasks in ordinary language and converts them into safe QGIS Processing workflows. It includes beginner-friendly prompt interpretation, context-aware prompt suggestions, active-layer fallback, multi-step workflow planning, vector and raster operations, Processing Toolbox discovery, preview-before-run, prompt history, output management and detailed diagnostics. The toolbar icon changes state while the agent is running and after success or failure. Prompt text is translated into QGIS parameters and is never executed as Python or shell code. Compatible with QGIS 3.28+ and QGIS 4.x through qgis.PyQt.
+version=1.1.0
+author=Mr. Akmaul Hoque; Dr. Manish Kumar Naskar; Dr. Debasish Chakraborty
+email=akmaulhoque92@gmail.com
+icon=icon.png
+experimental=False
+deprecated=False
+homepage=https://github.com/AkmaulHoque/GIS-Work-Agent#readme
+tracker=https://github.com/AkmaulHoque/GIS-Work-Agent/issues
+repository=https://github.com/AkmaulHoque/GIS-Work-Agent
+changelog=1.1.0 - Added new GIS Work Agent branding and repository-ready PNG icon; added interactive toolbar icon states for ready/running/success/error; added author credits; corrected QGIS metadata for official repository publication; added GitHub/QGIS release documentation.\n1.0.2 - Added beginner-language interpretation, active-layer fallback, fuzzy layer-name matching and direct geometry area handling.\n1.0.1 - Improved fallback Processing tool discovery and safer ambiguous-prompt handling.\n1.0.0 - Added prompt suggestions, history, multi-step planning and broad vector/raster Processing workflows.
+tags=gis,agent,prompt,natural language,processing,workflow,automation,vector,raster,analysis,qgis,gdal,grass,saga
+hasProcessingProvider=False
+server=False
